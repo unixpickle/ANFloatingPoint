@@ -25,4 +25,4 @@ Here is an example of how would encode a native `double` value as ANFloatingPoin
 License
 =======
 
-This source code is under no warranty, and I do not care who or what uses it. If aliens use this code as butter on their toast, and as a result decide to enslave the human race, I am not responsible for any harm that they may cause. This applies to all usage of this code, but *especially* alien usage.
+This source code is under no license or warranty. If you decide to beem this code up to Mars, and as a result aliens come and eat your family, don't blame me when you are first-class alien feces. This concept applies to any and all usage of this library, but especially to use by aliens.
