@@ -10,6 +10,7 @@
 		FAF5C43F14A6BC130059E286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF5C43E14A6BC130059E286 /* Foundation.framework */; };
 		FAF5C44214A6BC130059E286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5C44114A6BC130059E286 /* main.m */; };
 		FAF5C44614A6BC140059E286 /* ANFloatingPoint.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAF5C44514A6BC140059E286 /* ANFloatingPoint.1 */; };
+		FAF5C44E14A6BC370059E286 /* ANFloatingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5C44D14A6BC370059E286 /* ANFloatingPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,10 @@
 		FAF5C43A14A6BC130059E286 /* ANFloatingPoint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANFloatingPoint; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF5C43E14A6BC130059E286 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF5C44114A6BC130059E286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAF5C44414A6BC140059E286 /* ANFloatingPoint-Prefix.pch */ = {isa = PBXFileReference; path = "ANFloatingPoint-Prefix.pch"; sourceTree = "<group>"; };
+		FAF5C44414A6BC140059E286 /* ANFloatingPoint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANFloatingPoint-Prefix.pch"; sourceTree = "<group>"; };
 		FAF5C44514A6BC140059E286 /* ANFloatingPoint.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ANFloatingPoint.1; sourceTree = "<group>"; };
+		FAF5C44C14A6BC370059E286 /* ANFloatingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANFloatingPoint.h; sourceTree = "<group>"; };
+		FAF5C44D14A6BC370059E286 /* ANFloatingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANFloatingPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				FAF5C44114A6BC130059E286 /* main.m */,
+				FAF5C44C14A6BC370059E286 /* ANFloatingPoint.h */,
+				FAF5C44D14A6BC370059E286 /* ANFloatingPoint.m */,
 				FAF5C44514A6BC140059E286 /* ANFloatingPoint.1 */,
 				FAF5C44314A6BC140059E286 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF5C44214A6BC130059E286 /* main.m in Sources */,
+				FAF5C44E14A6BC370059E286 /* ANFloatingPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
