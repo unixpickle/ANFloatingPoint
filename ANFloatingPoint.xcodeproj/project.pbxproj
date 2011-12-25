@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF5C43F14A6BC130059E286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF5C43E14A6BC130059E286 /* Foundation.framework */; };
+		FAF5C44214A6BC130059E286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5C44114A6BC130059E286 /* main.m */; };
+		FAF5C44614A6BC140059E286 /* ANFloatingPoint.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAF5C44514A6BC140059E286 /* ANFloatingPoint.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF5C43814A6BC130059E286 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FAF5C44614A6BC140059E286 /* ANFloatingPoint.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAF5C43A14A6BC130059E286 /* ANFloatingPoint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANFloatingPoint; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF5C43E14A6BC130059E286 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF5C44114A6BC130059E286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF5C44414A6BC140059E286 /* ANFloatingPoint-Prefix.pch */ = {isa = PBXFileReference; path = "ANFloatingPoint-Prefix.pch"; sourceTree = "<group>"; };
+		FAF5C44514A6BC140059E286 /* ANFloatingPoint.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ANFloatingPoint.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF5C43714A6BC130059E286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF5C43F14A6BC130059E286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF5C42F14A6BC130059E286 = {
+			isa = PBXGroup;
+			children = (
+				FAF5C44014A6BC130059E286 /* ANFloatingPoint */,
+				FAF5C43D14A6BC130059E286 /* Frameworks */,
+				FAF5C43B14A6BC130059E286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF5C43B14A6BC130059E286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5C43A14A6BC130059E286 /* ANFloatingPoint */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF5C43D14A6BC130059E286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5C43E14A6BC130059E286 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF5C44014A6BC130059E286 /* ANFloatingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5C44114A6BC130059E286 /* main.m */,
+				FAF5C44514A6BC140059E286 /* ANFloatingPoint.1 */,
+				FAF5C44314A6BC140059E286 /* Supporting Files */,
+			);
+			path = ANFloatingPoint;
+			sourceTree = "<group>";
+		};
+		FAF5C44314A6BC140059E286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5C44414A6BC140059E286 /* ANFloatingPoint-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF5C43914A6BC130059E286 /* ANFloatingPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF5C44914A6BC140059E286 /* Build configuration list for PBXNativeTarget "ANFloatingPoint" */;
+			buildPhases = (
+				FAF5C43614A6BC130059E286 /* Sources */,
+				FAF5C43714A6BC130059E286 /* Frameworks */,
+				FAF5C43814A6BC130059E286 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANFloatingPoint;
+			productName = ANFloatingPoint;
+			productReference = FAF5C43A14A6BC130059E286 /* ANFloatingPoint */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF5C43114A6BC130059E286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FAF5C43414A6BC130059E286 /* Build configuration list for PBXProject "ANFloatingPoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF5C42F14A6BC130059E286;
+			productRefGroup = FAF5C43B14A6BC130059E286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF5C43914A6BC130059E286 /* ANFloatingPoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF5C43614A6BC130059E286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF5C44214A6BC130059E286 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAF5C44714A6BC140059E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAF5C44814A6BC140059E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF5C44A14A6BC140059E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANFloatingPoint/ANFloatingPoint-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF5C44B14A6BC140059E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANFloatingPoint/ANFloatingPoint-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF5C43414A6BC130059E286 /* Build configuration list for PBXProject "ANFloatingPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5C44714A6BC140059E286 /* Debug */,
+				FAF5C44814A6BC140059E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF5C44914A6BC140059E286 /* Build configuration list for PBXNativeTarget "ANFloatingPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5C44A14A6BC140059E286 /* Debug */,
+				FAF5C44B14A6BC140059E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF5C43114A6BC130059E286 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ANFloatingPoint' target in the 'ANFloatingPoint' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
